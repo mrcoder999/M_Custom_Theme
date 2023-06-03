@@ -1,3 +1,3 @@
-# DarkPixlz-s-Modern-Theme
+# M-custom-Theme
 
 tba
