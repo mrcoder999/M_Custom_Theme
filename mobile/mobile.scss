@@ -1523,14 +1523,7 @@ div.login-required {
               align-items: center;
             }
 
-            &.age {
-              width: 15%;
-              order: 4;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-          }
+            
 
           .posters {
             a.latest {
@@ -1590,10 +1583,7 @@ div.login-required {
             }
           }
 
-          .posts-map a,
-          .num.age.activity a {
-            padding: 0;
-          }
+          
 
           .posts-map {
             position: relative;
