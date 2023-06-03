@@ -1411,3 +1411,9 @@ div.login-required {
   border-radius: 8px;
 }
 
+.topic-list-item, tr {
+    border-bottom: 1px solid #1f202c;
+}
+.topic-list .main-link a.title {
+    font-weight: bold;
+}
