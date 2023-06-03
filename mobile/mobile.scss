@@ -1426,7 +1426,24 @@ div.login-required {
           border-bottom: none;
         }
 
-       
+        .topic-list-data {
+          &.default {
+            width: 63%;
+          }
+
+          &.posters {
+            width: 7%;
+          }
+
+          &.posts {
+            width: 15%;
+          }
+
+          &.activity {
+            width: 15%;
+          }
+        }
+      }
 
       .topic-list-body {
         display: contents;
@@ -1479,7 +1496,59 @@ div.login-required {
             }
           }
 
-        
+          .topic-list-data {
+            &.main-link {
+              width: 63%;
+              order: 2;
+            }
+
+            &.posters {
+              width: 7%;
+              order: 1;
+              height: auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              a:not(.latest) {
+                display: none;
+              }
+            }
+
+            &.posts {
+              width: 15%;
+              order: 3;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            &.age {
+              width: 15%;
+              order: 4;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+
+          .posters {
+            a.latest {
+              margin-right: 4px;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              align-items: center;
+
+              .avatar {
+                margin-right: 0;
+              }
+            }
+
+            a:not(.latest) {
+              margin-left: -22px;
 
               .avatar {
                 border: 3px solid var(--secondary);
@@ -1521,10 +1590,15 @@ div.login-required {
             }
           }
 
-      
+          .posts-map a,
+          .num.age.activity a {
+            padding: 0;
+          }
 
-            
+          .posts-map {
+            position: relative;
 
+           
           
 
             .relative-date {
