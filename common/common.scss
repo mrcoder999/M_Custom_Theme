@@ -7,6 +7,9 @@
 .user-menu.revamped .tabs-list .btn.active {
     background-color: #303030;
 }
+.user-menu.revamped .tabs-list .btn:hover {
+    background-color: #353535;
+}
 .select-kit .select-kit-row.is-selected.is-highlighted {
     background: #353535 !important;
 }
@@ -16,7 +19,6 @@
 .select-kit .select-kit-row.is-selected {
     background: #303030 !important;
 }
-
 .is-highlighted {
      background: #303030 !important;
     }
