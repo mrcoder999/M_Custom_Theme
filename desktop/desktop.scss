@@ -24,7 +24,7 @@ body {
   .sidebar-wrapper {
     @if $Is_Background_Blurred {
       backdrop-filter: blur(3rem) !important;
-      background-color: rgb(10 10 10) !important;
+      background-color: rgba(0,0,0,.5882352941) !important;
 
       input[type],
       .select-kit.combo-box .select-kit-header,
