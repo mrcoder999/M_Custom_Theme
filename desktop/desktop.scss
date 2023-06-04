@@ -1646,3 +1646,7 @@ div.login-required {
 .static-progress-bar .progress-bar-background .progress-bar {
   border-radius: 8px;
 }
+
+.topic-list .main-link.focused {
+	box-shadow: inset 0px 0 0 var(--tertiary);
+}
