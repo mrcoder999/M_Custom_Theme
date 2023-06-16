@@ -1,5 +1,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <!--Once again, I plan to add more in the future.-->
 <script type="text/javascript">
-  
+  $(window).scroll(function(e){ 
+  var $el = $('.fixedElement'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+    $el.css({'position': 'fixed', 'top': '0px'}); 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'}); 
+  } 
+});
 </script>
