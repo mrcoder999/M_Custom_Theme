@@ -2,7 +2,7 @@
 <!--Once again, I plan to add more in the future.-->
 <script type="text/javascript">
   $(window).scroll(function(e){ 
-  var $el = $('.fixedElement'); 
+  var $el = $('.selected-posts'); 
   var isPositionFixed = ($el.css('position') == 'fixed');
   if ($(this).scrollTop() > 200 && !isPositionFixed){ 
     $el.css({'position': 'fixed', 'top': '0px'}); 
